@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, bookface,
+ [{description, "bookface"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'bookface_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
